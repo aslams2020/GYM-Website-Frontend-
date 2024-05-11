@@ -1,0 +1,192 @@
+
+body{
+
+    color: white;
+    margin : 0px; 
+    padding: 0px;
+    /* background : url('img/gym.jpg'); */
+    
+    font-family: 'Times New Roman', Times, serif;
+    height: 300px;
+}
+.header{
+    position:sticky;
+    border: 2px solid rgba(3, 3, 84, 0.87);
+    background-color: rgba(3, 3, 84, 0.87);
+}
+
+.left{
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 115px;
+
+}
+
+.mid{
+    /* border: 2px solid red; */
+    display:block;
+    width: 38%;
+    margin: 18px auto;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top:30px;
+    right: 63px;
+}
+
+.navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 28px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 18px 23px;
+    }
+    .navbar li a:hover{
+       background-color: rgba(255, 255, 255, 0.251);
+       text-decoration: underline;
+       color : rgb(245, 129, 53);
+    }
+    .navbar li a.active {
+        text-decoration: underline;
+        color : rgb(245, 129, 53);
+    }
+        
+    .left img{
+        width: 88px;
+        filter: invert(100%);
+    }
+    .left div{
+        line-height: 0px;
+        font-size: 20px;
+        margin: auto -11px;
+        text-align: center;
+        padding: 2px;
+
+
+    }
+
+    .btn{
+        margin: 0px 9px;
+        color: white;
+        padding: 2px 16px;
+        background-color: black;
+        border: 2px solid rgba(255, 255, 0, 0.48);
+        border-radius: 9px;
+        font-size: 18px;
+
+    }
+    .btn:hover{
+        background-color: rgba(198, 193, 193, 0.164);
+        cursor: pointer;
+    }
+    .container{
+        display: block;
+        width: 21%;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin: 158px 81px;
+        font-size: 25px;
+        padding: 75px;
+        background-color: rgba(250, 246, 246, 0.177);
+
+    }
+    .container h2{
+        border-radius: 3px;
+        border: 2px solid white;
+        background-color: white;
+        border: 2px solid black;
+        width: 371px;
+        color: black;
+    }
+    .btn2{
+        margin: -3px 77px;
+    background-color: rgba(171, 170, 170, 0.965);
+    width: 14%;
+    position: absolute;
+    left: 146px;
+    border-radius: 23px;
+    padding: 7px;
+    font-size: 18px
+    }
+    .btn2:hover{
+        cursor: pointer;
+        background-color: rgb(250, 248, 248);
+    }
+    
+
+    .Form-update input:hover{
+        cursor:pointer;
+    }
+    .Form-update input{
+        border-radius: 9px;
+        text-align: center;
+        margin: 3px auto;
+        font-size: 16px;
+        padding: 6px;
+        display: block;
+        width: 308px;
+        border: 1px solid rgb(4 1 1 / 86%);
+
+        }
+        .Form-update div strong{
+          color: white;
+        }
+        
+        .container2{
+    font-family: 'Edu NSW ACT Foundation', cursive;  
+    color: black;
+    border: 2px solid rgb(3 3 3 / 51%);
+    position: absolute;
+    right: 27px;
+    line-height: 53px;
+    /* width: 24%; */
+    top: 191px;
+    display: inline-block;
+    /* margin: -146px 286px; */
+    padding: 22px 22px;
+    background-color: white;
+    width: 19%;
+    border-radius: 23px;
+
+        }
+
+.container2 h2{
+    text-decoration: underline;
+    color: rgb(255, 106, 0);
+}
+#headingclass{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+footer{
+    border: 2px solid rgb(3, 3, 84);
+    background-color: rgb(2, 2, 76);
+    display: block;
+    /* margin: auto; */
+    padding: 23px;
+    font-size: 24px;
+    /* width: 39%; */
+    /* height: 80px;*/
+}
+footer li{
+    display: inline;
+}
+footer li a{
+    text-decoration: none;
+    color: White;
+    padding: 23px;
+}
+footer li a:hover{
+    /* background-color: rgba(255, 255, 255, 0.335); */
+    text-decoration: underline;
+    color:rgb(245, 129, 53);
+}
