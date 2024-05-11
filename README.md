@@ -1,3 +1,4 @@
 # GYM-Website-Frontend-
 
-Introduction : 
+**Introduction :**  
+A GYM Website made using HTML, CSS.
